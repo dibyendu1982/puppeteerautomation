@@ -4,6 +4,7 @@
   "description": "automation using mocha chai and puppeteer",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests"
   },
   "repository": {
@@ -18,7 +19,13 @@
   "homepage": "https://github.com/dibyendu1982/puppeteerautomation#readme",
   "dependencies": {
     "chai": "^4.2.0",
+    "chalk": "^4.1.0",
+    "cli-table": "^0.3.1",
     "mocha": "^8.1.3",
-    "puppeteer": "^5.3.1"
+    "puppeteer": "^5.3.1",
+    "typescript": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^3.0.2"
   }
 }
